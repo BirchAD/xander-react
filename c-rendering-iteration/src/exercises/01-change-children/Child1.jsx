@@ -1,13 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Child1 = () => {
   return (
-    <article>
-        <h2>
-            I'm Child 1!
-        </h2>
+    <article style={{ backgroundColor: "black" }}>
+      <h2>I'm Child 1!</h2>
     </article>
-  )
-}
+  );
+};
 
-export default Child1
+export default Child1;
